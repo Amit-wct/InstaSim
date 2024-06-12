@@ -8871,7 +8871,7 @@ if(s)throw A.c(A.d_("`const Object()` cannot be used as the token."))
 A.G7(a)
 if(b!==r.a.get(a))throw A.c(A.d_("Platform interfaces must not be implemented with `implements`"))},
 xA:function xA(){},
-QG(){var s,r,q,p,o,n
+QG(){var s,r,q,p,o,n,m
 if($.e7==null)A.NI()
 s=$.e7
 s.toString
@@ -8895,7 +8895,9 @@ if(!B.c.q(s,"iPhone")){s=window.navigator.userAgent
 s.toString
 if(!B.c.q(s,"iPad")){s=window.navigator.userAgent
 s.toString
-B.c.q(s,"Mac")}}window.location.href="https://play.google.com/store/apps/details?id=com.tsim.tsim"},
+s=B.c.q(s,"Mac")}else s=!0}else s=!0
+m=s?"https://apps.apple.com/app/instasim-from-tsim/id6503248174":"https://play.google.com/store/apps/details?id=com.tsim.tsim"
+window.location.href=m},
 ly:function ly(a){this.a=a},
 Ab:function Ab(){},
 Ac:function Ac(a){this.a=a},
